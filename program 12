@@ -1,0 +1,22 @@
+print("government of tamil nadu")
+print("electricity board")
+print("------------------")
+print("bill recipt")
+print("-----------")
+e.no=int(input("enter the ebno:"))
+name=input("enter the name:")
+pu=int(input("previous unit"))
+cu=int(input("enter the current unit"))
+unitconsumed =currentunit-priviousunit
+print("unit consumed:",unitconsumed)
+if(unit>=100):
+      amt=unit*10
+      print("amount to be paid:",amt)
+      elif(unit>=500):
+      amt=unit*5
+      print("amount to be paid:",amt)
+      elif(unit>=100):
+      amt=unit*2
+      print("amount to paid:",amt)
+      else:
+      print("amount to paid:",nill)
