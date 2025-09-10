@@ -1,0 +1,25 @@
+print("TAHSHASHILA UNIVERSITY")
+print("Ongur Tindivam")
+print("-----------------")
+print("STUDENT MARK LIST")
+print("------------------")
+no1 = int(input("Enter the Python mark: "))
+no2 = int(input("Enter the DBMS mark: "))
+no3 = int(input("Enter the Industry mark: "))
+totalmark = no1 + no2 + no3
+print("Total mark:", totalmark)
+average = totalmark / 3
+print("Average mark:", average)
+if no1 >= 40 and no2 >= 40 and no3 >= 40:
+    print("Result: PASS")
+    if totalmark >= 250:
+        print("Grade: O Grade")
+    elif totalmark >= 200:
+        print("Grade: A+ Grade")
+    elif totalmark >= 150:
+        print("Grade: B Grade")
+    else:
+        print("Grade: C Grade")
+else:
+    print("Result: FAIL")
+    print("Grade: No Grade (Failed)")
